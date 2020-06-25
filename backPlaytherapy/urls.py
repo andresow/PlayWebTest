@@ -20,7 +20,7 @@ from django.conf.urls import url, include
 from django.views.generic import TemplateView
 from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
 from django.conf import settings
-from django.config.urls.static import static
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
