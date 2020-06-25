@@ -11,6 +11,7 @@ django-datetime-widget==0.9.3
 django-select2==6.3.1
 django-templated-mail==1.1.1
 djangorestframework==3.9.2
+djangorestframework-simplejwt==4.4.0
 djoser==2.0.3
 idna==2.8
 oauthlib==3.0.1
