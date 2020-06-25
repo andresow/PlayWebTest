@@ -9,7 +9,9 @@ django-cors-headers==3.4.0
 django-crispy-forms==1.7.2
 django-datetime-widget==0.9.3
 django-select2==6.3.1
+django-templated-mail==1.1.1
 djangorestframework==3.9.2
+djoser==2.0.3
 idna==2.8
 oauthlib==3.0.1
 Pillow==5.4.1
