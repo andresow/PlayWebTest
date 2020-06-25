@@ -92,14 +92,9 @@ WSGI_APPLICATION = 'backPlaytherapy.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ptf',
-        'USER' : 'postgres',
-        'PASSWORD': '24603759',
-        'HOST' : 'localhost',
-        'PORT' : 5432,    
-    } 
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
 }
 
 # Password validation
